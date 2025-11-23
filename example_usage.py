@@ -87,10 +87,10 @@ def main():
     custom_prompt = generate_prompt(tutorial, {
         'TEMAT': 'zwiększanie zaangażowania na Instagramie',
         'LICZBA': '5',
-        'POZIOM': 'POCZĄTKUJĄCY',
-        'FORMAT': 'GRAFIKA'
+        'OSIĄGNĄĆ REZULTAT': 'zwiększyć zasięgi',
+        'CZAS': '7'
     })
-    print(custom_prompt[:300] + "...")
+    print(custom_prompt[:400] + "...")
     print()
     
     # Example 5: List all categories
