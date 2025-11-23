@@ -373,7 +373,7 @@
       "id": "challenge-invitation",
       "name": "Wyzwanie dla społeczności",
       "category": "interactive",
-      "description": "Post zapraszający do udziału w челлендżу lub akcji",
+      "description": "Post zapraszający do udziału w wyzwaniu lub akcji",
       "structure": [
         "Prezentacja wyzwania",
         "Zasady uczestnictwa",

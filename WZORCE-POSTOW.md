@@ -242,7 +242,7 @@ Styl: [POWAŻNY/HUMORYSTYCZNY/KONTROWERSYJNY]
 
 ### 16. Wyzwanie dla społeczności
 
-**Opis:** Post zapraszający do udziału w челлендżу lub akcji
+**Opis:** Post zapraszający do udziału w wyzwaniu lub akcji
 
 **Prompt do użycia:**
 ```
