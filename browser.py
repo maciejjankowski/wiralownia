@@ -7,6 +7,7 @@ Interactive command-line tool to browse and search viral post patterns.
 
 import json
 import sys
+import textwrap
 from typing import List, Dict
 
 def load_data():
@@ -40,17 +41,16 @@ def show_post_details(post: Dict):
     print(f"\n🆔 ID: {post['id']}")
     print(f"\n📝 TYP POSTA:")
     print_separator('-')
-    # Wrap text at reasonable length
-    type_text = post['type']
-    for i in range(0, len(type_text), 100):
-        print(type_text[i:i+100])
+    # Use textwrap for better word wrapping
+    wrapped_type = textwrap.fill(post['type'], width=100)
+    print(wrapped_type)
     print_separator('-')
     
     print(f"\n🧠 DLACZEGO TO DZIAŁA (Psychologia i Algorytm):")
     print_separator('-')
-    why_text = post['why']
-    for i in range(0, len(why_text), 100):
-        print(why_text[i:i+100])
+    # Use textwrap for better word wrapping
+    wrapped_why = textwrap.fill(post['why'], width=100)
+    print(wrapped_why)
     print_separator('-')
 
 def search_posts(data: Dict, query: str) -> List[Dict]:
